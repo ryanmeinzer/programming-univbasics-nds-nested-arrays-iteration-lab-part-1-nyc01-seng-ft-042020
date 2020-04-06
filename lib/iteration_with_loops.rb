@@ -12,6 +12,6 @@ def find_even_values(src)
 
 src.count do
   |i| i.even?
+  binding.pry
 end
-binding.pry
 end
