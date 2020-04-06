@@ -5,4 +5,4 @@ def find_even_values(src)
 
 end
 
-p array_of_arrays[0][1]
+p array_1[0][1]
