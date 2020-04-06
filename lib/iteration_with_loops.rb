@@ -11,6 +11,6 @@ def find_even_values(src)
       end
       element_i += 1
     end
-  row_i += 1
+  array_i += 1
   end
 end
