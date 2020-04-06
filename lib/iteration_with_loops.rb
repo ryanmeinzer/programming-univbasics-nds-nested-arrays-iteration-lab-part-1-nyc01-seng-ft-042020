@@ -8,6 +8,8 @@ def find_even_values(src)
 #   while element_i < src[row_i].count do
 # end
 
-src.count{|i| i.even?}
+src.count do
+  |i| i.even?
+end
 
 end
