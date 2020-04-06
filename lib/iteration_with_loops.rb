@@ -11,5 +11,4 @@ def find_even_values(src)
 src.count do
   |i| i.even?
 end
-
 end
