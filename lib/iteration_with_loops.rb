@@ -6,7 +6,8 @@ def find_even_values(src)
   while array_i < src.count do
     element_i = 0
     while element_i < src[array_i].count do
-      src[array_i][element_i].even? ? p src[array_i][element_i] : nil
+      if src[array_i][element_i].even?
+        p src[array_i][element_i]
       end
       element_i += 1
     end
