@@ -5,4 +5,4 @@ def find_even_values(src)
 
 end
 
-src[0][1]
+puts src[0][1]
